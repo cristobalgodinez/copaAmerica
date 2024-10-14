@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+      font-family: "Kanit", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+}
+/*Inicio de la barra de navegación*/
+.navbar-brand{
+  display: flex;
+}
+.navbar-brand span{
+  padding-top: 5%;
+}
+
+.spikes {
+    position: relative;
+    background: #FBF9FA;
+    height: 100%;
+  }
+  
+  .spikes::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    left: -0%;
+    top: 100%;
+    z-index: 10;
+    display: block;
+    height: 50px;
+    background-size: 50px 100%;
+    background-image: linear-gradient(135deg, #FBF9FA 25%, transparent 25%), linear-gradient(225deg, #FBF9FA 25%, transparent 25%);
+    background-position: 0 0;
+  }
+
+  /*Inicio del carrusel*/
+
+ .carousel-item img{
+    margin-bottom: 10%;
+  }
+ .carousel-caption h5{
+  font-size: small;
+  color: white; 
+  }
+.carousel-caption p{
+  font-size: small;
+  color: white; 
+  }
+
+  .col-4 img{
+    margin: 2px;
+  }
+  /*Finalización del carrusel*/
+
+  /*Inicio la sección de noticias*/
+  .spikes2{
+    background-color: #e5e5e5;
+  }
+  .texto-noticias{
+    color: #0d00a4;
+    text-align: center;
+  }
+  /*Finalización de la sección de noticias*/
+
+  /*Inicio de la sección de estadios*/
+  .spikes4{
+    background-color: #0d00a4;
+    padding-top: 6%;
+    padding-bottom: 5%;
+  }
+  .col-12{
+    margin-bottom: 2%;
+    padding-bottom: 4%;
+    text-align: center;
+    color: #fff1e6;
+  }
+  .texto-estadios h5{
+    margin-top: 2%;
+    color: #fffffc;
+    text-align: center;
+  }
+  .texto-estadios p{
+    color: #fec89a;
+    text-align:start;
+  }
+
+  .triangle {
+    position: relative;
+    background: #0d00a4;
+    height: 100%;
+  }
+  
+  .triangle::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 30px 30px 0 30px;
+    border-color: #0d00a4 transparent transparent transparent;
+    left: 33%;
+    transform: translateX(-50%) translateY(100%);
+  }
+   /*Finalización de la sección de estadios*/
+   
+   /*Inicio de la sección de camisetas*/
+   .spikes3{
+    background-color: #ffff3f;
+   }
+   .card-body{
+    background-color: #cddafd;
+   }
+   .camisetas-titulo{
+    color: #3c096c;
+   }
+   .img-fluid{
+    width: 100%;
+    height: 70%;
+   }
+   /*Finalización de las camisetas*/
+   
+  /*Inicio de la sección contactos*/
+  .footer-contenido{
+    background-color: #1e2749;
+    color: #fff1e6;
+  }
+  .contactos h6{
+    font-size: medium;
+  }
+  .contactos p{
+    font-size: small;
+  }
+  
+  .derechos-resevados{
+    color: #6a6b83;
+    font-size: x-large;
+  }  
